@@ -16,10 +16,6 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,6 +23,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "unbound"
@@ -51,7 +51,9 @@
     {
         "defaults": 
         {
-            "colorScheme": "Material Palenight High Contrast",
+            "backgroundImage": "C:\\Ndz\\Com\\vscode\\Background\\496976.jpg",
+            "backgroundImageOpacity": 0.1,
+            "colorScheme": "Material Ocean",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
@@ -77,7 +79,6 @@
                 "name": "Command Prompt"
             },
             {
-                "colorScheme": "Monokai Pro",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -100,7 +101,20 @@
                 "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
                 "hidden": false,
                 "name": "PowerShell 7",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "%NDZ%"
+            },
+            {
+                "guid": "{f177536a-7f34-5887-b34c-5d3f394ecb78}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{70393905-57c9-549a-9a8f-7c9cf4f89fe6}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -153,9 +167,32 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#0F111A",
+            "black": "#546E7A",
+            "blue": "#82AAFF",
+            "brightBlack": "#546E7A",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#89DDFF",
+            "brightGreen": "#C3E88D",
+            "brightPurple": "#C792EA",
+            "brightRed": "#FF5370",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFCB6B",
+            "cursorColor": "#FFCC00",
+            "cyan": "#89DDFF",
+            "foreground": "#8F93A2",
+            "green": "#C3E88D",
+            "name": "Material Ocean",
+            "purple": "#C792EA",
+            "red": "#FF5370",
+            "selectionBackground": "#1F2233",
+            "white": "#FFFFFF",
+            "yellow": "#FFCB6B"
+        },
+        {
             "background": "#1B1E2B",
             "black": "#000000",
-            "blue": "#5b79ba",
+            "blue": "#5B79BA",
             "brightBlack": "#676E95",
             "brightBlue": "#82AAFF",
             "brightCyan": "#89DDFF",
@@ -408,5 +445,6 @@
     ],
     "showTabsInTitlebar": true,
     "startOnUserLogin": true,
-    "themes": []
+    "themes": [],
+    "useAcrylicInTabRow": false
 }
