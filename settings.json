@@ -16,6 +16,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -23,10 +27,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": "unbound"
@@ -51,9 +51,9 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\Ndz\\Com\\vscode\\Background\\496976.jpg",
+            "backgroundImage": "C:\\Ndz\\Media\\Waifu\\1338277.png",
             "backgroundImageOpacity": 0.1,
-            "colorScheme": "Material Ocean",
+            "colorScheme": "Tokyo Night",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
@@ -115,6 +115,12 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": true,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -169,7 +175,7 @@
         {
             "background": "#0F111A",
             "black": "#546E7A",
-            "blue": "#82AAFF",
+            "blue": "#717CB4",
             "brightBlack": "#546E7A",
             "brightBlue": "#82AAFF",
             "brightCyan": "#89DDFF",
@@ -180,9 +186,9 @@
             "brightYellow": "#FFCB6B",
             "cursorColor": "#FFCC00",
             "cyan": "#89DDFF",
-            "foreground": "#8F93A2",
+            "foreground": "#BABED8",
             "green": "#C3E88D",
-            "name": "Material Ocean",
+            "name": "Material Deep Ocean",
             "purple": "#C792EA",
             "red": "#FF5370",
             "selectionBackground": "#1F2233",
@@ -372,6 +378,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#9D7CD8",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#283457",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        },
+        {
+            "background": "#24283B",
+            "black": "#1D202F",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#9D7CD8",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "Tokyo Night Storm",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#2E3C64",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
         },
         {
             "background": "#300A24",
