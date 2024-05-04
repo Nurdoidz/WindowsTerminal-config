@@ -53,15 +53,16 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\Ndz\\Media\\Waifu\\1338277.png",
-            "backgroundImageOpacity": 0.1,
-            "colorScheme": "Tokyo Night",
+            "backgroundImage": "C:\\Ndz\\Media\\Waifu\\729086.jpg",
+            "backgroundImageOpacity": 0.05,
+            "colorScheme": "Ayame",
+            "cursorShape": "filledBox",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "VictorMono Nerd Font",
                 "size": 11.0,
-                "weight": "medium"
+                "weight": "normal"
             },
             "opacity": 100,
             "useAcrylic": false
@@ -109,6 +110,29 @@
     },
     "schemes": 
     [
+        {
+            "background": "#17131E",
+            "black": "#2B284A",
+            "blue": "#5984E7",
+            "brightBlack": "#37355A",
+            "brightBlue": "#51A2E8",
+            "brightCyan": "#63DCEA",
+            "brightGreen": "#98D57E",
+            "brightPurple": "#EB68E5",
+            "brightRed": "#FF6394",
+            "brightWhite": "#D1C9F4",
+            "brightYellow": "#F5CB40",
+            "cursorColor": "#857ABC",
+            "cyan": "#64A9CC",
+            "foreground": "#BAB4D2",
+            "green": "#63AE5D",
+            "name": "Ayame",
+            "purple": "#966CEC",
+            "red": "#D74368",
+            "selectionBackground": "#3C376F",
+            "white": "#8A7D9B",
+            "yellow": "#E78D5B"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
